@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #66ce6fd5;
+    color: beige;
+}
+
+.header{
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+font-size: 30px;
+color: beige;
+text-decoration: none;
+font-weight: 600;
+}
+
+.navbar a{
+    font-size: 20px;
+    color: beige;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color: darkblue;
+}
+
+.home{
+    height: 100vh;
+    background: url("https://scontent.fdac146-1.fna.fbcdn.net/v/t39.30808-6/288630700_2834500350177332_1416142355756711139_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeH0s8Bd54Jo_r3xxkDIU3yFN90IVHch6DE33QhUdyHoMeBO_v5rpBtNQPkmy39R3ftpYt186Cf1IR7K_fwS97c9&_nc_ohc=4PVHXUjLOFwAX-q48vU&_nc_ht=scontent.fdac146-1.fna&oh=00_AfB2lUUbxGmS0ui0fAfdEP8N1CAeiskAaXIQnoHYvx6UeA&oe=65DEB5F3")no-repeat;
+    background-size: contain;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+   max-width: 600px;
+}
+
+.home-content h1{
+font-size: 60px;
+font-weight: 700;
+}
+.home-content h3{
+    font: size 35px;
+    font-weight: 700;
+    color: rgb(216, 61, 14);
+}
+
+.home-content p{
+    font: size 40px; 
+    font-weight: 600;
+    margin: 20px 0 40px;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 50px;
+}
+
+.btn-box a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: rgb(236, 120, 42);
+    border: 2px solid rgb(238, 158, 38);
+    border-radius: 8px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.aboutme{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: beige;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main{
+    width: 1300px;
+    max-width: 50%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.about-text h2{
+    background-color: rgb(230, 122, 34);
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
